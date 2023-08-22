@@ -1,0 +1,14 @@
+{
+	"Parameter":
+	{
+		"Page":
+		{
+			"limit_height":1000
+		},
+		"Link":
+		{
+			"linkSaveSR_DIC": "D:\\Image_SR_DIC",
+			"linkSaveMCL_DIC": "D:\\Image_MCL_DIC"
+		}
+	}
+}
