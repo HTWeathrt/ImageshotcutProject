@@ -502,7 +502,8 @@ namespace Image_NYInspection_TechCuli
 
                     // Lưu ảnh cắt được vào tập tin mới với đường dẫn và tên được chọn bởi người dùng
                     croppedImage.Save(fullFilePath, ImageFormat.Jpeg);
-
+                    /// Phân tách ảnh tren và ảnh dưới
+                    
                     Rectangle rect1 = new Rectangle(x, yright, width, height);
                     Bitmap croppedImage1 = new Bitmap(rect1.Width, rect1.Height);
 
