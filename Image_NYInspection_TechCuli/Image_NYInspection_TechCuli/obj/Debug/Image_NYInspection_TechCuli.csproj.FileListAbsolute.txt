@@ -455,8 +455,6 @@ D:\Phi\08222023\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\obj\Debu
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Image_NYInspection_TechCuli.exe.config
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Image_NYInspection_TechCuli.exe
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Image_NYInspection_TechCuli.pdb
-D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Aspose.Words.dll
-D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Aspose.Words.Pdf2Word.dll
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\AutoMapper.dll
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.dll
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Microsoft.AspNetCore.Authentication.dll
@@ -508,7 +506,6 @@ D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_Te
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\System.ValueTuple.dll
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Microsoft.mshtml.dll
-D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Aspose.Words.xml
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\AutoMapper.xml
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Microsoft.AspNetCore.Authentication.xml
 D:\Project\ImageshotcutProject\Image_NYInspection_TechCuli\Image_NYInspection_TechCuli\bin\Debug\Microsoft.AspNetCore.Authentication.Cookies.xml

@@ -1,5 +1,4 @@
-﻿using Aspose.Words.Drawing;
-using Aspose.Words.Lists;
+﻿
 using Image_NYInspection_TechCuli.Connect;
 using Image_NYInspection_TechCuli.Data;
 using Image_NYInspection_TechCuli.Show;
@@ -453,9 +452,10 @@ namespace Image_NYInspection_TechCuli
                 // Try to create the directory.
                 DirectoryInfo di = Directory.CreateDirectory(pathhh1);
             }
-
+            excelimport = new ExcelCls();
             foreach (var item in productList)
             {
+                
                 bool chekk = false;
                 string parentFolderPath = item.LinkSR; // đường dẫn đến thư mục cha
                 string[] subfolderPaths = Directory.GetDirectories(parentFolderPath); // lấy danh sách tất cả các thư mục con trong thư mục cha
@@ -511,9 +511,9 @@ namespace Image_NYInspection_TechCuli
                         g1.DrawImage(image, new Rectangle(0, 0, croppedImage1.Width, croppedImage1.Height),
                            rect1, GraphicsUnit.Pixel);
                     }
-                    excelimport = new ExcelCls();
+                    
                     excelimport.CroppedImage = croppedImage;
-
+                    excelimport.ExcelLoading();
                     // Lưu ảnh cắt được vào tập tin mới với đường dẫn và tên được chọn bởi người dùng
                     croppedImage1.Save(fullFilePathright, ImageFormat.Jpeg);
                     image.Dispose();

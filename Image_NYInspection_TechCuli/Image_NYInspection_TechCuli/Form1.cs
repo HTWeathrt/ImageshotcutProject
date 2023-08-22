@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Windows.Forms.LinkLabel;
-using Aspose.Words;
+
 
 namespace Image_NYInspection_TechCuli
 {
