@@ -33,16 +33,14 @@ namespace Image_NYInspection_TechCuli.Excel_Ex
 
             sheet.Range["D3"].ColumnWidth = 50;
             sheet.Range["D3"].RowHeight = 150;
-
+            
             picture.LeftColumnOffset = 100;
             picture.TopRowOffset = 25;
 
             picture.ResizeBehave = ResizeBehaveType.MoveAndResize; //not working
             workbook.SaveToFile("AlignPicture.xlsx", ExcelVersion.Version2016);
-            //MessageBox.Show("File created !');
+            
         }
-        
-
 
     }
 }

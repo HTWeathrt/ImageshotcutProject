@@ -513,7 +513,7 @@ namespace Image_NYInspection_TechCuli
                     }
                     
                     excelimport.CroppedImage = croppedImage;
-                    excelimport.ExcelLoading();
+                    excelimport.ExcelLoading(width,height);
                     // Lưu ảnh cắt được vào tập tin mới với đường dẫn và tên được chọn bởi người dùng
                     croppedImage1.Save(fullFilePathright, ImageFormat.Jpeg);
                     image.Dispose();
