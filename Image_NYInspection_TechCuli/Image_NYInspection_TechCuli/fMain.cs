@@ -511,7 +511,6 @@ namespace Image_NYInspection_TechCuli
                         g1.DrawImage(image, new Rectangle(0, 0, croppedImage1.Width, croppedImage1.Height),
                            rect1, GraphicsUnit.Pixel);
                     }
-                    
                     excelimport.CroppedImage = croppedImage;
                     excelimport.ExcelLoading(width,height);
                     // Lưu ảnh cắt được vào tập tin mới với đường dẫn và tên được chọn bởi người dùng
