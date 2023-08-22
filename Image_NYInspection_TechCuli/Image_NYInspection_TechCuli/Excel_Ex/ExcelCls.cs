@@ -15,11 +15,10 @@ namespace Image_NYInspection_TechCuli.Excel_Ex
     internal class ExcelCls
     {
         public Bitmap CroppedImage { get; set; }
-        public void ExcelLoading()
+        public void ExcelLoading(int Width , int Height)
         {
             Spire.Xls.Workbook workbook = new Spire.Xls.Workbook();
             workbook.LoadFromFile("@Data.xlsx");
-
             Spire.Xls.Worksheet sheet = workbook.Worksheets[0];
 
             //sheet.Range['D3'].Text = 'Align Picture Within A Cell:';
