@@ -84,8 +84,6 @@ namespace Image_NYInspection_TechCuli
             ptr1.Image = BasetoImg(name);
             BasetoImg(name).Save(@"F:\f\pic.jpg", System.Drawing.Imaging.ImageFormat.Png);
             connection.Close();
-
-
         }
         public byte[] imageToByteArray(Image imageIn)
         {
