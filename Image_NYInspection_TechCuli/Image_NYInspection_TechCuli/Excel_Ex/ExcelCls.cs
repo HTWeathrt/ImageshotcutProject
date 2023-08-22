@@ -18,7 +18,7 @@ namespace Image_NYInspection_TechCuli.Excel_Ex
         public void ExcelLoading()
         {
             Spire.Xls.Workbook workbook = new Spire.Xls.Workbook();
-            workbook.LoadFromFile("");
+            workbook.LoadFromFile("@Data.xlsx");
 
             Spire.Xls.Worksheet sheet = workbook.Worksheets[0];
 
